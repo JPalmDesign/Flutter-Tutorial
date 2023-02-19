@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 //------------------------ ParentWidget --------------------------------
 
-class ParentWidget extends StatefulWidget {
+/*class ParentWidget extends StatefulWidget {
   const ParentWidget({super.key});
 
   @override
@@ -66,7 +66,7 @@ class TapboxB extends StatelessWidget {
       ),
     );
   }
-}
+}*/
 
 // TapboxA manages its own state.
 
