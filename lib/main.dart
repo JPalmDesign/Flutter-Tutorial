@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 //------------------------ ParentWidget --------------------------------
 
-/*class ParentWidget extends StatefulWidget {
+class ParentWidget extends StatefulWidget {
   const ParentWidget({super.key});
 
   @override
@@ -66,13 +66,13 @@ class TapboxB extends StatelessWidget {
       ),
     );
   }
-}*/
+}
 
 // TapboxA manages its own state.
 
 //------------------------- TapboxA ----------------------------------
 
-class TapboxA extends StatefulWidget {
+/*class TapboxA extends StatefulWidget {
   const TapboxA({super.key});
 
   @override
@@ -107,7 +107,7 @@ class _TapboxAState extends State<TapboxA> {
       ),
     );
   }
-}
+}*/
 
 void main() => runApp(const MyApp());
 
@@ -184,10 +184,10 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: const Text('Flutter layout demo'),
           ),
-          body: const Center(
+          /*body: const Center(
             child: TapboxA(),
-          ),
-          /*body: ListView(
+          ),*/
+          body: ListView(
             children: [
               Image.asset(
                 'images/lake.jpeg',
@@ -199,7 +199,7 @@ class MyApp extends StatelessWidget {
               buttonSection,
               textSection,
             ],
-          ),*/
+          ),
         ));
   }
 
