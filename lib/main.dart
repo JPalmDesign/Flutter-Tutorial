@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+/*
 //---------------------------- ParentWidget ----------------------------
 
 class ParentWidget extends StatefulWidget {
@@ -100,7 +100,7 @@ class _TapboxCState extends State<TapboxC> {
   }
 }
 
-/*// ParentWidget manages the state for TapboxB.
+// ParentWidget manages the state for TapboxB.
 
 //------------------------ ParentWidget --------------------------------
 
