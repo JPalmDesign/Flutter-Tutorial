@@ -245,11 +245,11 @@ class MyApp extends StatelessWidget {
             ),
           ),
           /*3*/
-          Icon(
+          /*Icon(
             Icons.star,
             color: Colors.red[500],
           ),
-          const Text('41'),
+          const Text('41'),*/
           const FavoriteWidget(),
         ],
       ),
